@@ -253,7 +253,7 @@ async def new_event(client: Client, message: Message):
             mkdir(str(id))
         pass
     else:
-        if username in admins:
+        
             createuser(username)
         else:
             await bot.send_message(id,f"⭕️**@{username} no tienes acceso a este bot.**")
