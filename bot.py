@@ -236,7 +236,7 @@ async def new_event(client: Client, message: Message):
     msg = message.text
     id = message.from_user.id
     username = message.from_user.username
-    dp = Dispatcher(bot)
+
     @bot.on_callback_query(filters.regex(r"^/download"))
     async def download_callback(client, query):
         url = url_temp["Actual_url"]  # Obtén la URL almacenada en el diccionario
