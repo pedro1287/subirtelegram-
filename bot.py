@@ -104,8 +104,8 @@ def sevenzip(fpath: Path, password: str = None, volume = None):
         files.append(file.name)
     return files
 
-admins = ['MarlonSu']
-MarlonSu = admins
+admins = ['JAGB2021']
+JAGB2021 = admins
 bot = Client("client",api_id,api_hash,bot_token=token) 
 CONFIG = {}
 global_conf = {
